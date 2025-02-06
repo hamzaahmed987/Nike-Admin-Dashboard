@@ -10,7 +10,7 @@ export default function AdminLogin() {
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
 
-    if (email === "khamzaat@gmail.com" && password === "wazir") {
+    if (email === "khamzaat@gmail.com" && password === "hamza") {
       localStorage.setItem("isLoggedIn", "true");
       router.push("/admin/dashboard");
     } else {
